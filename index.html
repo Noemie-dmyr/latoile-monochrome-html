@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio Monochrome - Home</title>
     <style>
-            body {
-            background-image: url(asset/bg-image-hero.png);
-            background-repeat: no-repeat;
-            background-size: 100%;
-            }
-            </style>
+        img#train_station{
+            width: 100%;
+            position:absolute;
+            left:0px;
+            z-index:-1;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <img width="" src="" alt="">
@@ -22,10 +24,11 @@
             <a href="communaute.html">La communauté</a>
         </nav>
     </header>
+
     <main>
         <!-- 1ere section / héros -->
         <section>
-            <!-- <img src="asset/bg-image-hero.png" alt="image de fond d'écran d'une gare"> -->
+            <img src="asset/bg-image-hero.png" id="train_station" alt="image d'un quai de gare">
             <h1>Créateurs d'espaces minimalistes et intemporels</h1>
             <p>Créateurs d'espaces minimalistes et fonctionnels, notre équipe fusionne une esthétique épurée avec une attention minutieuse aux détails.</p>
         </section>
