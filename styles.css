@@ -89,4 +89,9 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   padding: 180px;
+  .sponsors {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
 }
