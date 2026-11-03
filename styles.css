@@ -1,13 +1,28 @@
-body{
+body {
   background-color: white;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-  padding: 20px;
-  text-align: left;
+header {
   display: flex;
-  /* flex-direction: ; */
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+
+  a {
+    font-weight: bold;
+    color: black;
+  }
+}
+
+a {
+  text-decoration: none;
 }
 
 .hero {
@@ -17,5 +32,61 @@ header{
   background-repeat: no-repeat;
   padding: 300px;
   color: white;
+
+  p {
+    font-size: small;
+  }
 }
 
+h2 {
+  font-size: 33px;
+}
+
+/* Div H2 et paragraphe de less is more */
+.less-text {
+  border: solid 2px violet;
+  display: block;
+  justify-content: flex-start;
+  align-items: column;
+  padding: 10px 400px 10px 200px;
+}
+
+/* Conteneur de tous les articles services */
+.articles {
+  border: solid 2px green;
+  display: flex;
+  justify-content: center;
+  padding: 0px 200px 30px 200px;
+}
+
+/* Article service singulier */
+.service {
+  display: block;
+  justify-content: flex-start;
+  align-items: column;
+  padding: 20px;
+  border: solid 2px red;
+
+  h3 {
+    font-weight: bold;
+  }
+
+  p {
+    color: black;
+  }
+
+  a {
+    padding: 7px 16px;
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+  }
+}
+
+.trust {
+  background-image: url(asset/bg-image-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 180px;
+}
