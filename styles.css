@@ -44,7 +44,7 @@ h2 {
 
 /* Div H2 et paragraphe de less is more */
 .less-text {
-  border: solid 2px violet;
+  /* border: solid 2px violet; */
   display: block;
   justify-content: flex-start;
   align-items: column;
@@ -53,7 +53,7 @@ h2 {
 
 /* Conteneur de tous les articles services */
 .articles {
-  border: solid 2px green;
+  /* border: solid 2px green; */
   display: flex;
   justify-content: center;
   padding: 0px 200px 30px 200px;
@@ -65,7 +65,7 @@ h2 {
   justify-content: flex-start;
   align-items: column;
   padding: 20px;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 
   h3 {
     font-weight: bold;
