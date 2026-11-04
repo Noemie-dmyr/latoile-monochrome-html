@@ -48,7 +48,7 @@ h2 {
   display: block;
   justify-content: flex-start;
   align-items: column;
-  padding: 10px 400px 10px 200px;
+  padding: 10px 400px 10px 220px;
 }
 
 /* Conteneur de tous les articles services */
@@ -89,9 +89,25 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   padding: 180px;
+
   .sponsors {
     display: flex;
     justify-content: center;
     gap: 20px;
   }
 }
+
+/* 
+main{
+height 1000px
+}
+
+section{
+height 500px
+}
+
+.container{
+margin auto
+height 600px
+max-width 1200px
+}*/
