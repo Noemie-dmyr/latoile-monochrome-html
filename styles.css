@@ -21,17 +21,29 @@ nav {
   }
 }
 
+section {
+  min-height: 500px;
+}
+
+.container {
+  margin: auto;
+  max-width: 750px;
+}
+
 a {
   text-decoration: none;
 }
 
 .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(asset/bg-image-hero.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 300px;
   color: white;
+
 
   p {
     font-size: small;
@@ -42,72 +54,99 @@ h2 {
   font-size: 33px;
 }
 
-/* Div H2 et paragraphe de less is more */
-.less-text {
-  /* border: solid 2px violet; */
-  display: block;
-  justify-content: flex-start;
-  align-items: column;
-  padding: 10px 400px 10px 220px;
+.text-less {
+  margin-bottom: 40px;
 }
 
-/* Conteneur de tous les articles services */
-.articles {
-  /* border: solid 2px green; */
+.article-box {
   display: flex;
   justify-content: center;
-  padding: 0px 200px 30px 200px;
+  align-items: center;
+  gap: 30px;
+
+  .service {
+    h3 {
+      font-weight: bold;
+    }
+
+    a {
+      color: white;
+      padding: 6px 14px;
+      background-color: grey;
+      border-radius: 8px;
+    }
+  }
 }
 
-/* Article service singulier */
-.service {
-  display: block;
-  justify-content: flex-start;
-  align-items: column;
-  padding: 20px;
-  /* border: solid 2px red; */
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(asset/bg-image-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  h2 {
+    color: white;
+  }
+
+  .buton-discover {
+    padding: 6px 20px;
+    background-color: white;
+    color: black;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+  }
+}
+
+.articles-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.article-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  padding: 20px 0px;
+
+  img {
+    width: 350px;
+  }
 
   h3 {
+    color: black;
     font-weight: bold;
   }
 
   p {
     color: black;
   }
+}
+
+footer {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+
+  img {
+    width: 60px;
+  }
+
+  p {
+    color: white;
+  }
 
   a {
-    padding: 7px 16px;
-    background-color: grey;
     color: white;
-    border-radius: 8px;
   }
 }
-
-.trust {
-  background-image: url(asset/bg-image-2.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 180px;
-
-  .sponsors {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-}
-
-/* 
-main{
-height 1000px
-}
-
-section{
-height 500px
-}
-
-.container{
-margin auto
-height 600px
-max-width 1200px
-}*/
